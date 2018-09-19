@@ -6,6 +6,8 @@ public class problem2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a month: ");
+		// JA: It was the other way around int -> String.
+		// You have to read the input.
 		
 		if (input == january) {
 			System.out.println("1");

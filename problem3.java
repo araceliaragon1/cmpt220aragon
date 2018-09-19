@@ -17,7 +17,8 @@ public class problem3 {
 		
 		if (lower1 < higher1)
 		for (int i=0; i<3; i++) {
-			System.out.println(random);
+			System.out.println(random); // JA: This does not recalculate. You have to 
+										// include the calculation line in the loop
 		}
 	}
 

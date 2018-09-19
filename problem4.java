@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: This does not solve the problem
 public class problem4 {
 	
 	private static int character1;
@@ -8,7 +9,7 @@ public class problem4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
 		System.out.println("Give me a character: ");
-		character1 = input.nextInt();
+		character1 = input.nextInt(); 
 		System.out.println("Give me a second character: ");
 		character2 = input.nextInt();
 	
