@@ -1,11 +1,8 @@
-import java.util.Scanner;
 
 public class problem3 {
 
-	private static int lower1;
-	private static int higher1;
-	
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		Scanner input = new Scanner(System.in);
 		System.out.println("Give me a low number: ");
 		lower1 = input.nextInt();
@@ -19,7 +16,20 @@ public class problem3 {
 		for (int i=0; i<3; i++) {
 			System.out.println(random); // JA: This does not recalculate. You have to 
 										// include the calculation line in the loop
+=======
+		char n = 0;
+		int counter = 0;
+		for (char n1 = 0; n1 < 100; n1++) {
+				if (counter % 20 == 0) {
+					System.out.println( n1 + " ");
+				}else {
+					System.out.print(n1 + " ");
+				}
+				
+				counter++;
+>>>>>>> 90bd93175750dacb90084a1fbba02956206111d8
 		}
+		
 	}
 
 }
