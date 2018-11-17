@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TriangleTestMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IllegalTriangleException{
 		Scanner input = new Scanner(System.in);
 		System.out.println("Give me a measurement for side1, side2 and side3: ");
 		double side1 = input.nextDouble();
